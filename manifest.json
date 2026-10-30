@@ -1,0 +1,9 @@
+{
+  "id": "margin-notes",
+  "name": "Margin Notes",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Notion-style margin comments stored in the note, readable by AI assistants.",
+  "author": "Jess Herbert",
+  "isDesktopOnly": true
+}

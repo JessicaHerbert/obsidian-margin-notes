@@ -1,0 +1,25 @@
+.mn-highlight { background: rgba(255, 200, 0, 0.28); border-bottom: 2px solid rgba(230, 170, 0, 0.8); cursor: pointer; border-radius: 2px; }
+.mn-highlight.mn-active { background: rgba(255, 190, 0, 0.55); }
+.mn-highlight.mn-resolved { background: transparent; border-bottom: 1px dotted var(--text-faint); }
+.mn-float button { font-size: var(--font-ui-small); padding: 2px 10px; border-radius: 6px; box-shadow: var(--shadow-s); cursor: pointer; }
+.cm-tooltip:has(.mn-float) { border: none; background: transparent; }
+.mn-panel { padding: 8px 10px; }
+.mn-head { margin-bottom: 10px; }
+.mn-title { font-weight: 600; font-size: var(--font-ui-medium); }
+.mn-meta { display: flex; justify-content: space-between; align-items: center; color: var(--text-muted); font-size: var(--font-ui-smaller); margin-top: 2px; }
+.mn-link { background: none; box-shadow: none; border: none; color: var(--text-accent); padding: 0; cursor: pointer; font-size: var(--font-ui-smaller); }
+.mn-empty { color: var(--text-muted); font-size: var(--font-ui-small); margin-top: 16px; }
+.mn-card { border: 1px solid var(--background-modifier-border); border-radius: 8px; padding: 10px; margin-bottom: 10px; background: var(--background-primary); cursor: pointer; }
+.mn-card-active { border-color: rgba(230, 170, 0, 0.9); box-shadow: 0 0 0 1px rgba(230, 170, 0, 0.6); }
+.mn-card-resolved { opacity: 0.6; }
+.mn-quote { border-left: 3px solid rgba(230, 170, 0, 0.8); padding-left: 8px; color: var(--text-muted); font-size: var(--font-ui-smaller); margin-bottom: 8px; white-space: pre-wrap; }
+.mn-entry { margin-bottom: 8px; }
+.mn-entry-top { display: flex; gap: 6px; align-items: baseline; }
+.mn-author { font-weight: 600; font-size: var(--font-ui-small); }
+.mn-time { color: var(--text-faint); font-size: var(--font-ui-smaller); }
+.mn-text { font-size: var(--font-ui-small); white-space: pre-wrap; }
+.mn-actions { display: flex; gap: 6px; margin-top: 4px; }
+.mn-actions button, .mn-reply button { font-size: var(--font-ui-smaller); padding: 2px 8px; cursor: pointer; }
+.mn-danger { color: var(--text-error); }
+.mn-reply { margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
+.mn-input { width: 100%; resize: vertical; font-size: var(--font-ui-small); }
